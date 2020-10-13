@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,700');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  background: linear-gradient(#E9F2F5, #CEE0E7);
+  font-family: 'Roboto';
+}
+
+.card {
+  min-height:1800px;
+  width: 1800px;
+  background-color: white;
+  box-shadow: 0px 0px 75px 1px #888888;
+  border-radius: 5px;
+  position: center;
+  overflow: hidden;
+}
+
+.image {
+  background-image: url(https://images.unsplash.com/photo-1495105787522-5334e3ffa0ef?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=d5d41d95b7317fed7a8a25d249c25732&auto=format&fit=crop&w=1950&q=80);
+  background-position: center;
+  height: 500px;
+  width: 700px;
+  position: center;
+}
+
+.range {
+  font-size: 13px;
+  line-height: 13px;
+  display: inline;
+  bottom: 15px;
+  left: 15px;
+  background-color: #29466B;
+  color: white;
+  text-transform: uppercase;
+  padding: 8px;
+}
+
+.content {
+  padding: 15px;
+  margin-bottom: 55px;
+}
+
+.type {
+  text-transform: uppercase;
+  color: #B1B2B3;
+  margin: 0;
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.title {
+  margin: 5px 0;
+  color: #37393C;
+}
+
+.description {
+  margin: 20px;
+  color: #37393C;
+}
+
+.actions {
+  border-top: 2px solid #f1f1f1;
+  cursor: pointer;
+  padding: 15px;
+  position: absolute;
+  bottom: 0;
+  width:60px;
+}
+
+.save {
+  color: #B1B2B3;
+  text-transform: uppercase;
+}

@@ -1,0 +1,33 @@
+.loading{
+    width: 600px;
+    height: 50px;
+    position: relative;
+  }
+  .loading:after{
+    left:0;
+    background-color: #269926;
+    animation: a alternate infinite 1s linear;
+  }
+  .loading:after, .loading:before{
+  
+    position: absolute;
+    height: 50px;
+    width: 50px;
+    content: '';
+  }
+  .loading:before{
+    background-color:rgb(74, 48, 191);
+    left: calc(100% - 10px);
+    animation: a alternate-reverse infinite 1s linear;
+  }
+  
+  @keyframes a{
+    from{
+      left: 0;
+    }
+    to {
+      left: 60;
+    }
+  }
+  
+  
